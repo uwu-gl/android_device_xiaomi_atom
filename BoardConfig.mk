@@ -1,5 +1,7 @@
+# General info
 BOARD_VENDOR := xiaomi
 DEVICE_PATH := device/xiaomi/atom
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
@@ -108,12 +110,6 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_SYSTEMIMAGE_PARTITION_TYPE := ext4
 
 
-# Dynamic Partitions
-BOARD_SUPER_PARTITION_GROUPS := main
-BOARD_MAIN_SIZE := 9124708352
-BOARD_MAIN_PARTITION_LIST := system product vendor
-BOARD_SUPER_PARTITION_ERROR_LIMIT := 9124708352
-
 # FOD
 TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.xiaomi_atom
 TARGET_USES_FOD_ZPOS := true
@@ -145,6 +141,8 @@ TARGET_COPY_OUT_SYSTEM_EXT := system/system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_PRODUCT := product
 BOARD_ROOT_EXTRA_FOLDERS += metadata
+
+BOARD_SUPER_PARTITION_GROUPS := main                                 BOARD_MAIN_SIZE := 9124708352                                        BOARD_MAIN_PARTITION_LIST := system product vendor                   BOARD_SUPER_PARTITION_ERROR_LIMIT := 9124708352
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop

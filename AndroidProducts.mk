@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_atom.mk
+    $(LOCAL_DIR)/lineage_atom.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_atom-user \
-    evolution_atom-userdebug \
-    evolution_atom-eng
+    lineage_atom-user \
+    lineage_atom-userdebug \
+    lineage_atom-eng

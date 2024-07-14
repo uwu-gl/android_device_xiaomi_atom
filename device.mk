@@ -261,17 +261,17 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-	vendor.mediatek.hardware.mtkradioex@1.0 \
-	vendor.mediatek.hardware.videotelephony@1.0 \
-	ImsService \
-	EngineerMode \
-	libsink \
-	libem_support_jni \
+    vendor.mediatek.hardware.mtkradioex@1.0 \
+    vendor.mediatek.hardware.videotelephony@1.0 \
+    ImsService \
+    EngineerMode \
+    libsink \
+    libem_support_jni \
     libem_aoltest_jni \
     libem_audio_jni \
     libem_wifi_jni \
     mediatek-carrier-config-manager \
-	mediatek-common \
+    mediatek-common \
     mediatek-framework \
     mediatek-gwsdv2 \
     mediatek-ims-base \
@@ -294,7 +294,6 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-common
 
 # INIT
-
 PRODUCT_PACKAGES += \
     init.mtkincalladj.rc \
     init.vtservice.rc
@@ -344,7 +343,6 @@ PRODUCT_PACKAGES += \
     libpcap.vendor
 
 # Parts
-
 PRODUCT_PACKAGES += XiaomiParts
 
 # Permissions

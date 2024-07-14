@@ -8,7 +8,6 @@
  {
    "repository"  : "xiaomi-mt6885-devs/android_kernel_xiaomi_mt6885",
    "target_path" : "kernel/xiaomi/atom",
-   "remote"      : "github",
-   "branch"      : "lineage-20.0"
+   "remote"      : "github"
  }
 ]
