@@ -1,6 +1,6 @@
 #!/bin/sh
 PATCH_LOC=$PWD/device/xiaomi/atom/patch
-cd device/custom/sepolicy
+cd device/lineage/sepolicy
 git am $PATCH_LOC/device/custom/sepolicy/0001-Fix-up-kernel-failure.patch
 cd ../../../framework/base
 git am $PATCH_LOC/framework/base/0002-PE-Fingerprint-fix.patch
@@ -15,3 +15,5 @@ cd ../../../system/sepolicy
 git am $PATCH_LOC/system/sepolicy/0001-Fix-sepolicy-conflict.patch
 cd ../../hardware/interfaces
 git am $PATCH_LOC/hardware/interfaces/0001-Add-show-hide-udfps-view-callbacks-to-IBiometricsFin.patch
+cd ../
+echo "#PATCH FINISHED#"
